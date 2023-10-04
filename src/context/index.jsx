@@ -30,7 +30,7 @@ export const GlobalContextProvider = ({ children }) => {
   const [playerOneCurrentHealth, setPlayerOneCurrentHealth] = useState(0);
   const [playerTwoCurrentHealth, setPlayerTwoCurrentHealth] = useState(0);
 
-  // set battleground to localstorgae
+  // set battleground to localstorgae...
   useEffect(() => {
     const isBattleground = localStorage.getItem('battleground');
 
